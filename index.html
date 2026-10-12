@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>chiliz | Smart Chilli Crop Intelligence System R26-IT-075</title>
+<meta name="description" content="Research project R26-IT-075 at SLIIT: an autonomous ground rover for chilli disease detection, soil health prediction, irrigation control and field zone mapping.">
+<meta name="theme-color" content="#0F2A1E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 36 36'%3E%3Crect width='36' height='36' rx='10' fill='%23B3261E'/%3E%3Cpath d='M9.5 26.5c6.5 1.2 15-3.2 16.8-13' stroke='%23fff' stroke-width='4.6' stroke-linecap='round' fill='none'/%3E%3Cpath d='M25.6 13.2c-.2-3.2 1.8-5.6 4.4-5.8' stroke='%23E8B931' stroke-width='2.4' stroke-linecap='round' fill='none'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<link rel="preload" as="image" href="images/hero-field.webp" fetchpriority="high">
+<script defer src="js/main.js"></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap nav-bar">
+    <a class="brand" href="index.html" aria-label="chiliz research project home"><svg width="36" height="36" viewBox="0 0 36 36" aria-hidden="true"><rect width="36" height="36" rx="10" fill="#B3261E"/><path d="M9.5 26.5c6.5 1.2 15-3.2 16.8-13" stroke="#fff" stroke-width="4.6" stroke-linecap="round" fill="none"/><path d="M25.6 13.2c-.2-3.2 1.8-5.6 4.4-5.8" stroke="#E8B931" stroke-width="2.4" stroke-linecap="round" fill="none"/></svg><span class="brand-text"><span class="brand-name">chiliz</span><span class="brand-sub">R26-IT-075 Smart Chilli Crop Intelligence</span></span></a>
+    <nav aria-label="Main"><ul class="nav-links"><li><a href="index.html" aria-current="page">Home</a></li><li><a href="domain.html">Domain</a></li><li class="has-dd"><button class="dd-btn" aria-expanded="false" aria-haspopup="true">Milestones <svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 4.5 6 8l3.5-3.5" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></button><ul class="dropdown"><li><a href="milestones.html#m-proposal">Project Proposal<span>15 Mar</span></a></li><li><a href="milestones.html#m-pp1">Progress Presentation 1<span>11 May</span></a></li><li><a href="milestones.html#m-pp2">Progress Presentation 2<span>31 Aug</span></a></li><li><a href="milestones.html#m-final">Final Assessment and Viva<span>19 Oct</span></a></li><li><a href="milestones.html#m-paper">Research Paper<span>23 Oct</span></a></li><li><a href="milestones.html">All milestones<span>13 items</span></a></li></ul></li><li><a href="documents.html">Documents</a></li><li><a href="presentations.html">Presentations</a></li><li><a href="about.html">About Us</a></li><li><a href="contact.html">Contact Us</a></li></ul></nav>
+    <button class="icon-btn search-btn" aria-label="Search the site"><svg width="17" height="17" viewBox="0 0 17 17" aria-hidden="true"><circle cx="7.5" cy="7.5" r="5.2" stroke="currentColor" stroke-width="1.7" fill="none"/><path d="m11.5 11.5 4 4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg><span class="lbl">Search</span><kbd>Ctrl K</kbd></button>
+    <button class="icon-btn menu-btn" aria-label="Open menu" aria-expanded="false"><svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path d="M3 6h14M3 10h14M3 14h14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button>
+  </div>
+</header>
+<main id="main">
+
+<section class="hero on-dark">
+  <div class="hero-bg" aria-hidden="true"></div>
+  <div class="wrap hero-inner">
+    <div>
+      <p class="hero-id"><b>R26-IT-075</b> Research project, SLIIT Faculty of Computing</p>
+      <h1><span class="line"><span>Smart chilli crop</span></span><span class="line"><span>intelligence from an</span></span><span class="line"><span>autonomous rover</span></span></h1>
+      <p class="hero-lead">A ground rover that moves between chilli rows, reads the soil, photographs every plant and turns the field into clear management zones, so farmers know where to irrigate, treat and fertilise.</p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="domain.html">Explore the research <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="M4 9h10M10 5l4 4-4 4" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        <a class="btn btn-ghost" href="#chiliz">See chiliz, the product</a>
+      </div>
+      <p class="hero-meta">Supervised by Prof. Samantha Rajapaksha and Ms. Chathurya Kumarapperuma</p>
+    </div>
+    <div class="zone-stage">
+      <svg class="zone-svg" viewBox="0 0 400 400" role="img" aria-label="Animated field zone grid: a rover sweeps each crop row and the field is divided into four management zones">
+<rect class="cell z-a" x="22" y="22" width="56" height="56" rx="6" style="animation-delay:1.00s"/><rect class="cell z-a" x="82" y="22" width="56" height="56" rx="6" style="animation-delay:1.18s"/><rect class="cell z-a" x="142" y="22" width="56" height="56" rx="6" style="animation-delay:1.37s"/><rect class="cell z-b" x="202" y="22" width="56" height="56" rx="6" style="animation-delay:1.55s"/><rect class="cell z-b" x="262" y="22" width="56" height="56" rx="6" style="animation-delay:1.73s"/><rect class="cell z-b" x="322" y="22" width="56" height="56" rx="6" style="animation-delay:1.91s"/><rect class="cell z-a" x="22" y="82" width="56" height="56" rx="6" style="animation-delay:3.01s"/><rect class="cell z-a" x="82" y="82" width="56" height="56" rx="6" style="animation-delay:2.83s"/><rect class="cell z-b" x="142" y="82" width="56" height="56" rx="6" style="animation-delay:2.65s"/><rect class="cell z-b" x="202" y="82" width="56" height="56" rx="6" style="animation-delay:2.46s"/><rect class="cell z-b" x="262" y="82" width="56" height="56" rx="6" style="animation-delay:2.28s"/><rect class="cell z-c" x="322" y="82" width="56" height="56" rx="6" style="animation-delay:2.10s"/><rect class="cell z-a" x="22" y="142" width="56" height="56" rx="6" style="animation-delay:3.19s"/><rect class="cell z-d" x="82" y="142" width="56" height="56" rx="6" style="animation-delay:3.38s"/><rect class="cell z-d" x="142" y="142" width="56" height="56" rx="6" style="animation-delay:3.56s"/><rect class="cell z-b" x="202" y="142" width="56" height="56" rx="6" style="animation-delay:3.74s"/><rect class="cell z-c" x="262" y="142" width="56" height="56" rx="6" style="animation-delay:3.93s"/><rect class="cell z-c" x="322" y="142" width="56" height="56" rx="6" style="animation-delay:4.11s"/><rect class="cell z-d" x="22" y="202" width="56" height="56" rx="6" style="animation-delay:5.21s"/><rect class="cell z-d" x="82" y="202" width="56" height="56" rx="6" style="animation-delay:5.02s"/><rect class="cell z-d" x="142" y="202" width="56" height="56" rx="6" style="animation-delay:4.84s"/><rect class="cell z-c" x="202" y="202" width="56" height="56" rx="6" style="animation-delay:4.66s"/><rect class="cell z-c" x="262" y="202" width="56" height="56" rx="6" style="animation-delay:4.47s"/><rect class="cell z-c" x="322" y="202" width="56" height="56" rx="6" style="animation-delay:4.29s"/><rect class="cell z-d" x="22" y="262" width="56" height="56" rx="6" style="animation-delay:5.39s"/><rect class="cell z-d" x="82" y="262" width="56" height="56" rx="6" style="animation-delay:5.57s"/><rect class="cell z-a" x="142" y="262" width="56" height="56" rx="6" style="animation-delay:5.75s"/><rect class="cell z-a" x="202" y="262" width="56" height="56" rx="6" style="animation-delay:5.94s"/><rect class="cell z-c" x="262" y="262" width="56" height="56" rx="6" style="animation-delay:6.12s"/><rect class="cell z-c" x="322" y="262" width="56" height="56" rx="6" style="animation-delay:6.30s"/><rect class="cell z-d" x="22" y="322" width="56" height="56" rx="6" style="animation-delay:7.40s"/><rect class="cell z-a" x="82" y="322" width="56" height="56" rx="6" style="animation-delay:7.22s"/><rect class="cell z-a" x="142" y="322" width="56" height="56" rx="6" style="animation-delay:7.03s"/><rect class="cell z-a" x="202" y="322" width="56" height="56" rx="6" style="animation-delay:6.85s"/><rect class="cell z-b" x="262" y="322" width="56" height="56" rx="6" style="animation-delay:6.67s"/><rect class="cell z-b" x="322" y="322" width="56" height="56" rx="6" style="animation-delay:6.49s"/><line class="g-line" x1="20" y1="20" x2="20" y2="380" style="animation-delay:0.00s"/><line class="g-line" x1="20" y1="20" x2="380" y2="20" style="animation-delay:0.10s"/><line class="g-line" x1="80" y1="20" x2="80" y2="380" style="animation-delay:0.06s"/><line class="g-line" x1="20" y1="80" x2="380" y2="80" style="animation-delay:0.16s"/><line class="g-line" x1="140" y1="20" x2="140" y2="380" style="animation-delay:0.12s"/><line class="g-line" x1="20" y1="140" x2="380" y2="140" style="animation-delay:0.22s"/><line class="g-line" x1="200" y1="20" x2="200" y2="380" style="animation-delay:0.18s"/><line class="g-line" x1="20" y1="200" x2="380" y2="200" style="animation-delay:0.28s"/><line class="g-line" x1="260" y1="20" x2="260" y2="380" style="animation-delay:0.24s"/><line class="g-line" x1="20" y1="260" x2="380" y2="260" style="animation-delay:0.34s"/><line class="g-line" x1="320" y1="20" x2="320" y2="380" style="animation-delay:0.30s"/><line class="g-line" x1="20" y1="320" x2="380" y2="320" style="animation-delay:0.40s"/><line class="g-line" x1="380" y1="20" x2="380" y2="380" style="animation-delay:0.36s"/><line class="g-line" x1="20" y1="380" x2="380" y2="380" style="animation-delay:0.46s"/>
+<path class="trail" d="M50 50 L350 50 L350 110 L50 110 L50 170 L350 170 L350 230 L50 230 L50 290 L350 290 L350 350 L50 350" style="stroke-dasharray:2100;stroke-dashoffset:2100"/>
+<text class="zlabel" x="50" y="70" style="animation-delay:7.3s">Zone A</text><text class="zlabel" x="290" y="40" style="animation-delay:7.3s">Zone B</text><text class="zlabel" x="320" y="250" style="animation-delay:7.3s">Zone C</text><text class="zlabel" x="50" y="250" style="animation-delay:7.3s">Zone D</text>
+<g class="rover"><circle class="rover-pulse" r="7"/><rect x="-9" y="-7" width="18" height="14" rx="4" fill="#fff"/><circle r="3" fill="#B3261E"/>
+<animateMotion dur="6.4s" begin="1s" fill="freeze" path="M50 50 L350 50 L350 110 L50 110 L50 170 L350 170 L350 230 L50 230 L50 290 L350 290 L350 350 L50 350" rotate="auto"/></g>
+</svg>
+      <div class="zone-legend"><span><i style="background:#2F6B3A"></i>Dense crop</span><span><i style="background:#E8B931"></i>Moderate cover</span><span><i style="background:#B3261E"></i>Needs treatment</span><span><i style="background:#8DB582"></i>Open field</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section tight">
+  <div class="wrap">
+    <div class="stats">
+      <div class="stat"><div class="stat-num"><span data-count="3346">3,346</span></div><p>soil moisture sensor records cleaned into 35 features</p></div>
+      <div class="stat"><div class="stat-num"><span data-count="120130">120,130</span></div><p>Sentinel-2 records used for field zone mapping</p></div>
+      <div class="stat"><div class="stat-num"><span data-count="89.46">89.46</span><small>%</small></div><p>test accuracy of the LSTM + XGBoost soil health model</p></div>
+      <div class="stat"><div class="stat-num"><span data-count="0.5423">0.5423</span></div><p>silhouette score for the final field zone segmentation</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="overview" style="padding-top:40px">
+  <div class="wrap split wide-left">
+    <div data-reveal>
+      <span class="kicker">About the project</span>
+      <h2>One rover, four kinds of field intelligence</h2>
+      <p class="lead">Chilli cultivation in Sri Lanka is hit hard by disease, water stress, soil imbalance and uneven field conditions, and most farmers still rely on manual observation and fixed irrigation schedules.</p>
+      <p>This project builds a Smart Chilli Crop Intelligence System around an autonomous ground rover. The rover collects field data through cameras, GNSS/IMU and soil sensors. Machine learning models then analyse crop health, soil status, irrigation needs and field zones, and a farmer-friendly dashboard turns the results into practical recommendations for farmers and agronomists.</p>
+      <p>Existing tools usually solve disease detection, irrigation, soil analysis or mapping on their own. Our work brings them together in one system that shares data between components.</p>
+    </div>
+    <figure class="figure" data-reveal>
+      <img src="images/dashboard-field.webp" data-zoom alt="Rover in a chilli field with the zone-based crop monitoring dashboard" width="1200" height="675" loading="lazy" decoding="async">
+      <figcaption>Rover-based field monitoring with zone-level insights on the dashboard</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="section alt" id="components">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><span class="kicker">Research components</span><h2>Each member owns one part of the system</h2></div>
+      <p>Select a component to read its methodology and results on the Domain page.</p>
+    </div>
+    <div class="components">
+      <a class="comp" href="domain.html#navigation">
+        <img class="comp-photo" src="people/bhagya.jpg" alt="" width="96" height="96" loading="lazy" decoding="async">
+        <div><span class="tag">Navigation and irrigation</span><h3>Intelligent Navigation and Sensor-Based Irrigation Control</h3><div class="who">Arachci B. N. S., IT22112682</div></div>
+        <p>Scores GNSS reliability under the crop canopy and drives threshold-based drip irrigation, with Isolation Forest and Random Forest models flagging abnormal soil moisture.</p>
+        <span class="go" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="M4 9h10M10 5l4 4-4 4" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      </a>
+      <a class="comp" href="domain.html#disease">
+        <img class="comp-photo" src="people/kasuni.jpg" alt="" width="96" height="96" loading="lazy" decoding="async">
+        <div><span class="tag red">Crop health</span><h3>AI-Based Chilli Crop Disease, Stress and Growth Monitoring</h3><div class="who">Kulasekara D. K. M., IT22108722</div></div>
+        <p>Classifies eight chilli disease classes from rover images with EfficientNet-B0, explains predictions with Grad-CAM and runs on device through TFLite.</p>
+        <span class="go" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="M4 9h10M10 5l4 4-4 4" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      </a>
+      <a class="comp" href="domain.html#zones">
+        <img class="comp-photo" src="people/mayomi.jpg" alt="" width="96" height="96" loading="lazy" decoding="async">
+        <div><span class="tag yellow">Field zoning</span><h3>Field Zone Mapping and Autonomous Seeding and Treatment Planning</h3><div class="who">S. G. M. B. Subasinghe, IT22276032</div></div>
+        <p>Clusters Sentinel-2 spectral indices with K-Means to split the field into management zones and produce zone-wise seeding, irrigation, fertiliser and treatment plans.</p>
+        <span class="go" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="M4 9h10M10 5l4 4-4 4" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      </a>
+      <a class="comp" href="domain.html#soil">
+        <img class="comp-photo" src="people/salani.jpg" alt="" width="96" height="96" loading="lazy" decoding="async">
+        <div><span class="tag">Soil intelligence</span><h3>Soil Health Prediction Using a Hybrid LSTM and XGBoost Model</h3><div class="who">S. N. R. Jayawardhana, IT22192950</div></div>
+        <p>Classifies soil as healthy, moderate or poor from N, P, K, pH, temperature, humidity and rainfall readings to guide fertiliser decisions.</p>
+        <span class="go" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="M4 9h10M10 5l4 4-4 4" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="flow">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><span class="kicker">How it fits together</span><h2>Complete system flow</h2></div>
+      <p>Four pipelines start from the rover and dashboard connection and meet at one place: recommendations for farmers.</p>
+    </div>
+    <div class="flow-scroll" data-reveal><img src="images/system-flow.webp" data-zoom alt="Complete flow diagram showing soil health, disease detection, navigation and irrigation, and field zone mapping pipelines joining into farmer recommendations" width="2400" height="623" loading="lazy" decoding="async"></div>
+    <p class="hint">Select the diagram to view it full size.</p>
+  </div>
+</section>
+
+<section class="section alt" id="field">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><span class="kicker">Field testing</span><h2>Two HARTI-guided field visits</h2></div>
+      <p>Guided by the Hector Kobbekaduwa Agrarian Research and Training Institute, the team studied real chilli plantations before refining the rover and data workflow.</p>
+    </div>
+    <div class="gallery">
+      <figure class="g1"><img src="images/field-1.webp" data-zoom alt="Research team with a HARTI officer at the Malagala chilli plantation" loading="lazy" decoding="async" width="900" height="506"></figure>
+      <figure class="g2"><img src="images/field-2.webp" data-zoom alt="Team members walking through chilli rows at Malagala, Padukka" loading="lazy" decoding="async" width="692" height="389"></figure>
+      <figure class="g3"><img src="images/field-5.webp" data-zoom alt="Team inside the chilli greenhouse at Hanwella" loading="lazy" decoding="async" width="520" height="741"></figure>
+      <figure class="g4"><img src="images/field-3.webp" data-zoom alt="Driving the prototype rover between bagged chilli plants" loading="lazy" decoding="async" width="720" height="1280"></figure>
+      <figure class="g5"><img src="images/field-4.webp" data-zoom alt="Prototype 1 rover held up in a chilli row" loading="lazy" decoding="async" width="367" height="652"></figure>
+      <figure class="g6"><img src="images/field-6.webp" data-zoom alt="Close view of chilli leaves showing stress symptoms" loading="lazy" decoding="async" width="720" height="1280"></figure>
+    </div>
+    <div class="visit-notes">
+      <div class="visit"><h3>Malagala, Padukka <span>Visit 1</span></h3><ul>
+        <li>Studied crop-row spacing, plant height, irrigation practice and common disease and stress symptoms.</li>
+        <li>Found practical challenges: uneven ground, narrow rows, sunlight variation, soil moisture differences and the limits of manual disease checks.</li>
+        <li>Used the findings to refine rover movement, camera angles, soil sensor placement and the data collection workflow.</li></ul></div>
+      <div class="visit"><h3>Hanwella to Avissawella <span>Visit 2</span></h3><ul>
+        <li>Compared conditions across two plantations to validate the need for zone-based monitoring.</li>
+        <li>Observed differences in soil condition, plant growth, irrigation coverage and crop health between sections.</li>
+        <li>Confirmed the value of combining disease detection, soil health, irrigation and zone mapping in one rover.</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="prototype">
+  <div class="wrap">
+    <div class="sec-head">
+      <div><span class="kicker">What's next</span><h2>From prototype 1 to prototype 2</h2></div>
+      <p>Field testing showed where the first rover struggled. The second prototype is designed for both grounded soil and bagged chilli plants.</p>
+    </div>
+    <div class="proto" data-reveal>
+      <div class="proto-col"><span class="tag">Prototype 1</span><img src="images/prototype-1.webp" alt="Prototype 1: compact blue four-wheel rover with a fixed camera" width="450" height="335" loading="lazy" decoding="async"><p class="muted" style="font-size:.9rem;margin:0">Compact test rover used in both field visits</p></div>
+      <div class="proto-mid"><table><tbody>
+        <tr><th scope="row">Camera capture</th><td class="p1t">Capture limited by plant height</td><td class="p2t">Antenna-type camera adjusts to each variety</td></tr>
+        <tr><th scope="row">Soil and irrigation</th><td class="p1t">Hard to measure soil in planted bags</td><td class="p2t">Stick-type soil sensor for ground and bags</td></tr>
+        <tr><th scope="row">Camera height</th><td class="p1t">Fixed, not adjustable</td><td class="p2t">Height set to suit the crop</td></tr>
+        <tr><th scope="row">Soil sensing</th><td class="p1t">Mainly grounded soil</td><td class="p2t">Grounded soil and planted bags</td></tr>
+        <tr><th scope="row">Irrigation</th><td class="p1t">Less effective on bagged plants</td><td class="p2t">Supports grounded and bagged plants</td></tr>
+        <tr><th scope="row">Versatility</th><td class="p1t">Fewer planting setups</td><td class="p2t">Adapts to crop heights and environments</td></tr>
+      </tbody></table></div>
+      <div class="proto-col p2"><span class="tag red">Prototype 2</span><img src="images/prototype-2.webp" alt="Prototype 2: larger rover with adjustable antenna camera mast and tank" width="415" height="390" loading="lazy" decoding="async"><p class="muted" style="font-size:.9rem;margin:0">Planned build for the final system</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section chiliz on-dark" id="chiliz">
+  <div class="wrap">
+    <div class="chiliz-hero">
+      <div data-reveal>
+        <span class="kicker">Research commercialization</span>
+        <div class="wordmark"><svg width="64" height="64" viewBox="0 0 36 36" aria-hidden="true"><rect width="64" height="64" rx="10" fill="#B3261E"/><path d="M9.5 26.5c6.5 1.2 15-3.2 16.8-13" stroke="#fff" stroke-width="4.6" stroke-linecap="round" fill="none"/><path d="M25.6 13.2c-.2-3.2 1.8-5.6 4.4-5.8" stroke="#E8B931" stroke-width="2.4" stroke-linecap="round" fill="none"/></svg><span>chiliz</span></div>
+        <p class="tagline">Smart rover. Smarter chilli farming.</p>
+        <p>chiliz turns this research into a product: an autonomous field rover paired with a web dashboard that helps farmers and agribusinesses make data-driven decisions about irrigation, soil, disease and planting.</p>
+        <p style="color:#B9CDBF">The dashboard offers live field monitoring, soil data and crop health analytics, irrigation control and scheduling, alerts, data history and multi-user access.</p>
+      </div>
+      <img src="images/prototype-2.webp" alt="chiliz rover" width="415" height="390" loading="lazy" decoding="async">
+    </div>
+
+    <div class="plans">
+      <div class="plan" data-reveal>
+        <h3>Basic plan</h3><div class="for">For small-scale farmers</div>
+        <div class="price">LKR 2,800 <small>per month</small></div>
+        <ul class="ticks"><li>Web dashboard access for one user</li><li>Live monitoring</li><li>Basic analytics</li><li>Irrigation alerts</li><li>Seven days of data history</li><li>Email support</li></ul>
+      </div>
+      <div class="plan" data-reveal>
+        <h3>Premium plan</h3><div class="for">For advanced farmers and plantations</div>
+        <div class="price">LKR 30,000 <small>per month</small></div>
+        <ul class="ticks"><li>Multi-user dashboard access</li><li>Everything in Basic</li><li>AI crop health analytics</li><li>Advanced analytics and reports</li><li>Irrigation control and scheduling</li><li>Unlimited data history</li><li>Priority support and training</li></ul>
+      </div>
+      <div class="plan hw" data-reveal>
+        <h3>chiliz rover unit</h3><div class="for">Hardware package, one-time purchase</div>
+        <div class="price">LKR 450,000</div>
+        <ul class="ticks"><li>Fully assembled chiliz rover</li><li>Adjustable-height antenna camera</li><li>Soil sensor stick</li><li>Onboard controller and connectivity</li><li>Irrigation monitoring module</li><li>One-year warranty</li></ul>
+        <p class="note">Shipping and installation charges may apply. Subscriptions cover the dashboard and services; the rover is sold separately.</p>
+      </div>
+    </div>
+
+    <div class="biz">
+      <div><h3>Business model</h3><ul><li>Hardware sales, one-time</li><li>Subscription plans, monthly</li><li>After-sales support and maintenance</li><li>Future add-ons and upgrades</li></ul></div>
+      <div><h3>Target customers</h3><ul><li>Small-scale farmers</li><li>Plantations and large farms</li><li>Agricultural companies</li><li>Research institutions</li><li>Government programmes</li></ul></div>
+      <div><h3>Go-to-market</h3><ul><li>Direct sales and demos in farming communities</li><li>Partnerships with agri cooperatives and dealers</li><li>Online marketing and social media</li><li>Training and onboarding for farmers</li><li>After-sales service</li></ul></div>
+    </div>
+    <p class="vision">Our vision is to make chilli farming more productive, sustainable and profitable through smart robotics and data-driven insight.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap split">
+    <div><span class="kicker">Where we are</span><h2>Seven of thirteen milestones complete</h2><p class="muted">The draft final report and this website were submitted on 11 October 2026. The final presentation and viva are next, from 19 to 21 October.</p>
+      <div class="progress" aria-label="Milestone progress 54 percent"><i data-w="54%"></i></div>
+      <p class="muted" style="font-size:.9rem">54% of assessment milestones complete</p>
+      <a class="btn btn-ghost" href="milestones.html" style="margin-top:8px">View all milestones</a></div>
+    <div><span class="kicker">Explore the site</span>
+      <ul class="dir">
+        <li><a href="domain.html">Domain</a><small>Literature, research gap, problem, objectives, methodology, technologies</small></li>
+        <li><a href="documents.html">Documents</a><small>Project charter, proposal, research paper and group report</small></li>
+        <li><a href="presentations.html">Presentations</a><small>Proposal, progress 1, progress 2 and final slides</small></li>
+        <li><a href="about.html">About us</a><small>Research group and supervisors</small></li>
+      </ul></div>
+  </div>
+</section>
+
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="brand" href="index.html"><svg width="36" height="36" viewBox="0 0 36 36" aria-hidden="true"><rect width="36" height="36" rx="10" fill="#B3261E"/><path d="M9.5 26.5c6.5 1.2 15-3.2 16.8-13" stroke="#fff" stroke-width="4.6" stroke-linecap="round" fill="none"/><path d="M25.6 13.2c-.2-3.2 1.8-5.6 4.4-5.8" stroke="#E8B931" stroke-width="2.4" stroke-linecap="round" fill="none"/></svg><span class="brand-text"><span class="brand-name">chiliz</span><span class="brand-sub">Smart rover. Smarter chilli farming.</span></span></a>
+        <p style="margin-top:16px;max-width:42ch">Smart Chilli Crop Intelligence System Using an Autonomous Ground Rover. Research project R26-IT-075, Department of Information Technology, Faculty of Computing, Sri Lanka Institute of Information Technology.</p>
+      </div>
+      <div>
+        <h4>Pages</h4>
+        <ul><li><a href="index.html">Home</a></li><li><a href="domain.html">Domain</a></li><li><a href="milestones.html">Milestones</a></li><li><a href="documents.html">Documents</a></li><li><a href="presentations.html">Presentations</a></li><li><a href="about.html">About Us</a></li><li><a href="contact.html">Contact Us</a></li></ul>
+      </div>
+      <div>
+        <h4>Research team</h4>
+        <ul>
+          <li><a href="mailto:it22112682@my.sliit.lk">it22112682@my.sliit.lk</a></li>
+          <li><a href="mailto:it22108722@my.sliit.lk">it22108722@my.sliit.lk</a></li>
+          <li><a href="mailto:it22276032@my.sliit.lk">it22276032@my.sliit.lk</a></li>
+          <li><a href="mailto:it22192950@my.sliit.lk">it22192950@my.sliit.lk</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-base"><span>&copy; 2026 Research Group R26-IT-075, SLIIT, Malabe</span><span>2026 Regular Batch, Research Project</span></div>
+  </div>
+</footer>
+<button class="to-top" aria-label="Back to top"><svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="M9 14V4M5 8l4-4 4 4" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+<dialog class="search" id="search" aria-label="Search the site"><input type="search" placeholder="Search pages and sections" aria-label="Search"><ul></ul></dialog>
+<dialog class="lightbox" id="lightbox" aria-label="Image preview"><button class="icon-btn" aria-label="Close preview"><svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="m4 4 10 10M14 4 4 14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button><img alt=""></dialog>
+</body>
+</html>

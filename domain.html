@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Domain | chiliz R26-IT-075</title>
+<meta name="description" content="Literature survey, research gap, problem, question, objectives, methodology and technologies of the Smart Chilli Crop Intelligence System.">
+<meta name="theme-color" content="#0F2A1E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 36 36'%3E%3Crect width='36' height='36' rx='10' fill='%23B3261E'/%3E%3Cpath d='M9.5 26.5c6.5 1.2 15-3.2 16.8-13' stroke='%23fff' stroke-width='4.6' stroke-linecap='round' fill='none'/%3E%3Cpath d='M25.6 13.2c-.2-3.2 1.8-5.6 4.4-5.8' stroke='%23E8B931' stroke-width='2.4' stroke-linecap='round' fill='none'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<script defer src="js/main.js"></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap nav-bar">
+    <a class="brand" href="index.html" aria-label="chiliz research project home"><svg width="36" height="36" viewBox="0 0 36 36" aria-hidden="true"><rect width="36" height="36" rx="10" fill="#B3261E"/><path d="M9.5 26.5c6.5 1.2 15-3.2 16.8-13" stroke="#fff" stroke-width="4.6" stroke-linecap="round" fill="none"/><path d="M25.6 13.2c-.2-3.2 1.8-5.6 4.4-5.8" stroke="#E8B931" stroke-width="2.4" stroke-linecap="round" fill="none"/></svg><span class="brand-text"><span class="brand-name">chiliz</span><span class="brand-sub">R26-IT-075 Smart Chilli Crop Intelligence</span></span></a>
+    <nav aria-label="Main"><ul class="nav-links"><li><a href="index.html">Home</a></li><li><a href="domain.html" aria-current="page">Domain</a></li><li class="has-dd"><button class="dd-btn" aria-expanded="false" aria-haspopup="true">Milestones <svg width="12" height="12" viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 4.5 6 8l3.5-3.5" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></button><ul class="dropdown"><li><a href="milestones.html#m-proposal">Project Proposal<span>15 Mar</span></a></li><li><a href="milestones.html#m-pp1">Progress Presentation 1<span>11 May</span></a></li><li><a href="milestones.html#m-pp2">Progress Presentation 2<span>31 Aug</span></a></li><li><a href="milestones.html#m-final">Final Assessment and Viva<span>19 Oct</span></a></li><li><a href="milestones.html#m-paper">Research Paper<span>23 Oct</span></a></li><li><a href="milestones.html">All milestones<span>13 items</span></a></li></ul></li><li><a href="documents.html">Documents</a></li><li><a href="presentations.html">Presentations</a></li><li><a href="about.html">About Us</a></li><li><a href="contact.html">Contact Us</a></li></ul></nav>
+    <button class="icon-btn search-btn" aria-label="Search the site"><svg width="17" height="17" viewBox="0 0 17 17" aria-hidden="true"><circle cx="7.5" cy="7.5" r="5.2" stroke="currentColor" stroke-width="1.7" fill="none"/><path d="m11.5 11.5 4 4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg><span class="lbl">Search</span><kbd>Ctrl K</kbd></button>
+    <button class="icon-btn menu-btn" aria-label="Open menu" aria-expanded="false"><svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path d="M3 6h14M3 10h14M3 14h14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button>
+  </div>
+</header>
+<main id="main">
+<section class="page-hero"><div class="wrap">
+<ol class="crumbs" aria-label="Breadcrumb"><li><a href="index.html">Home</a></li><li aria-current="page">Domain</li></ol>
+<h1>Research domain</h1><p>What the literature says, where it falls short, and how our rover-based system closes the gap.</p></div></section>
+<section class="section"><div class="wrap domain-layout">
+<aside class="toc" aria-label="On this page"><p>On this page</p><ol>
+<li><a href="#literature">Literature survey</a></li><li><a href="#gap">Research gap</a></li><li><a href="#problem">Research problem</a></li><li><a href="#question">Research question</a></li><li><a href="#objectives">Research objectives</a></li><li><a href="#methodology">Methodology</a></li><li><a href="#technologies">Technologies used</a></li></ol></aside>
+<div>
+
+<section class="dsec" id="literature">
+<span class="kicker">Literature survey</span><h2>What existing research tells us</h2>
+<p class="lead">Precision agriculture research has moved from manual scouting towards sensors, satellites, robots and machine learning. Our survey grouped prior work into six themes that map onto the system's components.</p>
+<div class="lit">
+<article data-reveal><h3>Agricultural ground robots</h3><p>Unmanned ground vehicles can carry cameras and sensors close to the crop, capturing detail that aerial platforms miss. Most published rovers, however, focus on a single task such as spraying or imaging rather than combined decision support.</p></article>
+<article data-reveal><h3>Image-based disease detection</h3><p>Convolutional neural networks with transfer learning, including efficient architectures such as EfficientNet, classify leaf diseases with high accuracy on curated datasets. Explainability methods such as Grad-CAM help users trust predictions, but field images with variable light and occlusion remain challenging.</p></article>
+<article data-reveal><h3>Soil health prediction</h3><p>Machine learning models trained on N, P, K, pH and weather variables can classify soil fertility. Sequence models such as LSTM capture patterns across readings, while gradient-boosted trees such as XGBoost are strong tabular classifiers, which motivates a hybrid approach.</p></article>
+<article data-reveal><h3>Smart irrigation</h3><p>Soil moisture sensors combined with threshold or model-driven control reduce water use compared with fixed-interval schedules. Anomaly detection techniques such as Isolation Forest help separate sensor faults and unusual moisture events from normal drying patterns.</p></article>
+<article data-reveal><h3>GNSS reliability in the field</h3><p>GPS and GNSS accuracy degrades under crop canopy, trees and obstructions. Studies fuse GNSS with IMU data or monitor signal quality so a rover can detect unreliable positioning instead of silently drifting off the crop row.</p></article>
+<article data-reveal><h3>Management zone delineation</h3><p>Satellite vegetation and water indices such as NDVI, NDWI, EVI and SAVI from Sentinel-2 imagery are widely clustered with K-Means to define management zones, with elbow and silhouette analysis used to choose the number of zones.</p></article>
+</div>
+</section>
+
+<section class="dsec" id="gap">
+<span class="kicker">Research gap</span><h2>Strong parts, missing whole</h2>
+<p>Each capability has been studied, but usually on its own and rarely for chilli. No reviewed approach combined rover navigation reliability, disease and stress monitoring, soil health prediction, smart irrigation and zone-based planning in one farmer-facing system.</p>
+<div class="table-wrap"><table class="gap-table">
+<thead><tr><th scope="col" style="text-align:left">Approach</th><th scope="col">Disease and stress detection</th><th scope="col">Soil health prediction</th><th scope="col">Sensor-based irrigation</th><th scope="col">Field zone mapping</th><th scope="col">Navigation reliability</th><th scope="col">Chilli specific</th><th scope="col">Integrated dashboard</th></tr></thead>
+<tbody>
+<tr><th scope="row">Leaf disease classification apps</th><td><span class="yes" title="Covered">&#10003;</span></td><td><span class="no" title="Not covered">&ndash;</span></td><td><span class="no" title="Not covered">&ndash;</span></td><td><span class="no" title="Not covered">&ndash;</span></td><td><span class="no" title="Not covered">&ndash;</span></td><td><span class="part" title="Partly covered">&#9679;</span></td><td><span class="part" title="Partly covered">&#9679;</span></td></tr>
+<tr><th scope="row">IoT irrigation controllers</th><td><span class="no" title="Not covered">&ndash;</span></td><td><span class="no" title="Not covered">&ndash;</span></td><td><span class="yes" title="Covered">&#10003;</span></td><td><span class="no" title="Not covered">&ndash;</span></td><td><span class="no" title="Not covered">&ndash;</span></td><td><span class="no" title="Not covered">&ndash;</span></td><td><span class="part" title="Partly covered">&#9679;</span></td></tr>
+<tr><th scope="row">Soil fertility ML models</th><td><span class="no" title="Not covered">&ndash;</span></td><td><span class="yes" title="Covered">&#10003;</span></td><td><span class="no" title="Not covered">&ndash;</span></td><td><span class="no" title="Not covered">&ndash;</span></td><td><span class="no" title="Not covered">&ndash;</span></td><td><span class="no" title="Not covered">&ndash;</span></td><td><span class="no" title="Not covered">&ndash;</span></td></tr>
+<tr><th scope="row">Satellite zone mapping tools</th><td><span class="no" title="Not covered">&ndash;</span></td><td><span class="no" title="Not covered">&ndash;</span></td><td><span class="no" title="Not covered">&ndash;</span></td><td><span class="yes" title="Covered">&#10003;</span></td><td><span class="no" title="Not covered">&ndash;</span></td><td><span class="no" title="Not covered">&ndash;</span></td><td><span class="part" title="Partly covered">&#9679;</span></td></tr>
+<tr><th scope="row">Single-task field robots</th><td><span class="part" title="Partly covered">&#9679;</span></td><td><span class="no" title="Not covered">&ndash;</span></td><td><span class="no" title="Not covered">&ndash;</span></td><td><span class="no" title="Not covered">&ndash;</span></td><td><span class="part" title="Partly covered">&#9679;</span></td><td><span class="no" title="Not covered">&ndash;</span></td><td><span class="no" title="Not covered">&ndash;</span></td></tr>
+<tr class="ours"><th scope="row">This research (chiliz)</th><td><span class="yes" title="Covered">&#10003;</span></td><td><span class="yes" title="Covered">&#10003;</span></td><td><span class="yes" title="Covered">&#10003;</span></td><td><span class="yes" title="Covered">&#10003;</span></td><td><span class="yes" title="Covered">&#10003;</span></td><td><span class="yes" title="Covered">&#10003;</span></td><td><span class="yes" title="Covered">&#10003;</span></td></tr>
+</tbody></table></div>
+<div class="legend-row"><span><span class="yes" title="Covered">&#10003;</span> Covered</span><span><span class="part" title="Partly covered">&#9679;</span> Partly covered</span><span><span class="no" title="Not covered">&ndash;</span> Not covered</span></div>
+</section>
+
+<section class="dsec" id="problem">
+<span class="kicker">Research problem</span><h2>Damage is found too late</h2>
+<ul class="problem-list">
+<li><span>Chilli cultivation in Sri Lanka is heavily affected by disease, water stress, soil imbalance and uneven field conditions.</span></li>
+<li><span>Farmers still depend mainly on manual observation, fixed irrigation schedules and delayed soil testing.</span></li>
+<li><span>Early disease symptoms, nutrient deficiencies and moisture stress are often missed until crop damage has already occurred.</span></li>
+<li><span>Ground rover navigation becomes unreliable when GPS and GNSS signals degrade under crop canopy, trees or field obstructions.</span></li>
+<li><span>Existing solutions handle disease detection, irrigation, soil analysis or mapping separately rather than as one integrated system.</span></li>
+</ul>
+</section>
+
+<section class="dsec" id="question">
+<span class="kicker">Research question</span><h2>The question we set out to answer</h2>
+<p class="question">How can an autonomous ground rover-based intelligent system improve chilli crop monitoring and decision-making by integrating disease detection, soil health prediction, irrigation control and field zone mapping?</p>
+</section>
+
+<section class="dsec" id="objectives">
+<span class="kicker">Research objectives</span><h2>Objectives</h2>
+<div class="obj-main"><h3>Main objective</h3><p>To design and develop a Smart Chilli Crop Intelligence System using an autonomous ground rover.</p></div>
+<h3 style="margin-top:30px">Specific objectives</h3>
+<ul class="obj-list">
+<li>Monitor rover navigation reliability and support sensor-based drip irrigation decisions.</li>
+<li>Detect chilli crop diseases, stress conditions and growth stages using AI-based image analysis.</li>
+<li>Predict soil health conditions from real-time soil sensor readings using machine learning.</li>
+<li>Divide the chilli field into meaningful management zones using spatial clustering.</li>
+<li>Generate zone-specific recommendations for irrigation, fertiliser use, seeding density and disease treatment.</li>
+<li>Present all results through a farmer-friendly dashboard for better decision-making.</li>
+</ul>
+</section>
+
+<section class="dsec" id="methodology">
+<span class="kicker">Methodology</span><h2>Four pipelines, one rover</h2>
+<p>The rover and dashboard share one connection. Each component runs its own pipeline and feeds the final farmer recommendations. Select a component to see its steps and results.</p>
+<figure class="figure" style="margin:22px 0 0"><div class="flow-scroll" style="border:0;border-radius:0"><img src="images/system-flow.webp" data-zoom alt="Complete system flow diagram" width="2400" height="623" loading="lazy" decoding="async"></div><figcaption>Overall system flow. Select to enlarge.</figcaption></figure>
+
+<div class="tabs" role="tablist" aria-label="Research components">
+<button class="tab" role="tab" id="t-nav" data-key="navigation" aria-controls="navigation" aria-selected="false">Navigation and irrigation</button>
+<button class="tab" role="tab" id="t-dis" data-key="disease" aria-controls="disease" aria-selected="false" tabindex="-1">Disease monitoring</button>
+<button class="tab" role="tab" id="t-zone" data-key="zones" aria-controls="zones" aria-selected="false" tabindex="-1">Field zone mapping</button>
+<button class="tab" role="tab" id="t-soil" data-key="soil" aria-controls="soil" aria-selected="false" tabindex="-1">Soil health</button>
+</div>
+
+<div class="panel" role="tabpanel" id="navigation" aria-labelledby="t-nav">
+<div><h3>Intelligent Navigation and Sensor-Based Irrigation Control</h3><p class="muted">Arachci B. N. S., IT22112682</p>
+<ol class="steps"><li style="--i:0"><strong>Collect GNSS data</strong></li><li style="--i:1"><strong>Capture soil moisture readings</strong></li><li style="--i:2"><strong>Calculate GPS reliability score</strong></li><li class="decision" style="--i:3"><strong>Navigation condition degraded?</strong><span>Yes: flag degraded navigation. No: continue normal movement</span></li><li style="--i:4"><strong>Apply threshold-based irrigation logic</strong></li><li class="decision" style="--i:5"><strong>Soil moisture below lower limit?</strong><span>Yes: trigger drip irrigation. No: keep irrigation off</span></li><li style="--i:6"><strong>Compare smart irrigation with fixed-interval irrigation</strong></li><li style="--i:7"><strong>Evaluate water use, moisture stability and uptime</strong></li></ol></div>
+<div class="result-box"><h4>Results so far</h4>
+<div class="metrics"><div class="metric"><b>3,346</b><span>sensor records</span></div><div class="metric"><b>35</b><span>engineered features</span></div></div>
+<ul><li>Soil moisture anomaly detection pipeline rebuilt and tested on field-scale sensor data.</li><li>Isolation Forest identifies abnormal moisture patterns; Random Forest is trained for anomaly prediction.</li><li>Model files, scaler, feature list and an interactive demo GUI prepared for live demonstration.</li><li>Output supports rover-based moisture monitoring, irrigation alerts and dashboard integration.</li></ul>
+<div class="shots"><img src="images/res-rover-status.webp" data-zoom alt="Dashboard rover status and soil moisture by depth" loading="lazy" decoding="async" width="286" height="485"><img src="images/res-moisture-corr.webp" data-zoom alt="Sensor feature correlation matrix" loading="lazy" decoding="async" width="658" height="531"></div></div>
+</div>
+
+<div class="panel" role="tabpanel" id="disease" aria-labelledby="t-dis" hidden>
+<div><h3>AI-Based Chilli Crop Disease, Stress and Growth Monitoring</h3><p class="muted">Kulasekara D. K. M., IT22108722</p>
+<p style="font-size:.97rem"><b>Sub-question:</b> How can an AI-based ground rover system detect chilli crop diseases, stress conditions and growth stages using image analysis and sensor data?</p>
+<ol class="steps"><li style="--i:0"><strong>Collect chilli leaf and plant images</strong></li><li style="--i:1"><strong>Pre-process images</strong><span>Class mapping, splitting and augmentation</span></li><li style="--i:2"><strong>Train EfficientNet-B0 model</strong><span>Custom classification head</span></li><li style="--i:3"><strong>Classify chilli disease classes</strong></li><li style="--i:4"><strong>Evaluate model performance</strong></li><li style="--i:5"><strong>Use prediction confidence and sensor readings</strong></li><li style="--i:6"><strong>Generate crop health recommendations</strong></li></ol></div>
+<div class="result-box"><h4>Results so far</h4>
+<div class="metrics"><div class="metric"><b>8</b><span>disease classes</span></div><div class="metric"><b>TFLite</b><span>on-device model</span></div></div>
+<ul><li>Disease detection pipeline completed on an 8-class chilli plant disease dataset.</li><li>Pre-processing, class mapping, train, validation and test splitting and augmentation implemented.</li><li>EfficientNet-B0 CNN developed with a custom classification head.</li><li>Class-wise evaluation used to find improvement areas; Grad-CAM planned to highlight affected regions.</li><li>Model export, label saving, TFLite conversion and an interactive prediction demo prepared.</li></ul>
+<div class="shots"><img src="images/res-training.webp" data-zoom alt="Training history: model accuracy and loss across two phases" loading="lazy" decoding="async" width="1000" height="372"><img src="images/res-disease-demo.webp" data-zoom alt="Disease prediction demo running beside chilli plants" loading="lazy" decoding="async" width="500" height="889"></div></div>
+</div>
+
+<div class="panel" role="tabpanel" id="zones" aria-labelledby="t-zone" hidden>
+<div><h3>Field Zone Mapping and Autonomous Seeding and Treatment Planning</h3><p class="muted">S. G. M. B. Subasinghe, IT22276032</p>
+<ol class="steps"><li style="--i:0"><strong>Collect geotagged field data</strong></li><li style="--i:1"><strong>Align sensor records into a common spatial grid</strong></li><li style="--i:2"><strong>Normalise selected features</strong><span>NIR, SWIR, NDVI, NDWI, EVI and SAVI</span></li><li style="--i:3"><strong>Apply K-Means clustering</strong></li><li style="--i:4"><strong>Evaluate best cluster count</strong><span>Elbow and silhouette analysis</span></li><li style="--i:5"><strong>Create field management zones</strong></li><li style="--i:6"><strong>Generate zone-wise seeding, irrigation, fertiliser and treatment plans</strong></li></ol></div>
+<div class="result-box"><h4>Results so far</h4>
+<div class="metrics"><div class="metric"><b>120,130</b><span>cleaned records</span></div><div class="metric"><b>0.5423</b><span>silhouette score</span></div></div>
+<ul><li>Zone mapping pipeline completed on Sentinel-2 multispectral crop and land-cover data.</li><li>K-Means applied with elbow and silhouette analysis to select the cluster count.</li><li>Final segmentation produced two major field-zone groups.</li><li>Zone distribution, centroid profiling and an interactive field-zone map demo prepared.</li></ul>
+<div class="shots"><img src="images/res-zone-map.webp" data-zoom alt="Field zone map with dense crop, moderate cover, sparse, open field and edge zones" loading="lazy" decoding="async" width="900" height="509"><img src="images/res-zone-corr.webp" data-zoom alt="Spectral feature correlation matrix" loading="lazy" decoding="async" width="568" height="485"></div></div>
+</div>
+
+<div class="panel" role="tabpanel" id="soil" aria-labelledby="t-soil" hidden>
+<div><h3>Soil Health Prediction Using a Hybrid LSTM and XGBoost Model</h3><p class="muted">S. N. R. Jayawardhana, IT22192950</p>
+<ol class="steps"><li style="--i:0"><strong>Collect soil and environmental data</strong></li><li style="--i:1"><strong>Pre-process sensor readings</strong></li><li style="--i:2"><strong>Train LSTM-based soil health model</strong></li><li style="--i:3"><strong>Extract soil health patterns from input features</strong></li><li style="--i:4"><strong>Apply XGBoost for final classification</strong></li><li style="--i:5"><strong>Generate soil status labels</strong><span>Healthy, moderate or poor</span></li><li style="--i:6"><strong>Produce farmer decision-support recommendations</strong></li></ol></div>
+<div class="result-box"><h4>Results so far</h4>
+<div class="metrics"><div class="metric"><b>17,356</b><span>usable records of 20,000</span></div><div class="metric"><b>88.12%</b><span>LSTM accuracy</span></div><div class="metric"><b>89.46%</b><span>LSTM + XGBoost</span></div></div>
+<ul><li>Soil health model completed on NPK-based agricultural sensor data.</li><li>Soil classified as healthy, moderate or poor from N, P, K, temperature, humidity, pH and rainfall.</li><li>The hybrid model improved test accuracy over LSTM alone.</li></ul>
+<div class="shots"><img src="images/res-roc.webp" data-zoom alt="ROC curves for the LSTM and XGBoost model" loading="lazy" decoding="async" width="900" height="254"><img src="images/res-sensor-readings.webp" data-zoom alt="Dashboard live soil sensor readings" loading="lazy" decoding="async" width="900" height="592"></div></div>
+</div>
+</section>
+
+<section class="dsec" id="technologies">
+<span class="kicker">Technologies used</span><h2>Tools behind the system</h2>
+<div class="tech">
+<div><h3>Field data acquisition</h3><div class="pills"><span class="pill">Autonomous ground rover</span><span class="pill">Rover camera</span><span class="pill">GNSS / IMU sensors</span><span class="pill">Soil moisture sensors (30 to 150 cm)</span><span class="pill">NPK soil sensor</span><span class="pill">Drip irrigation control</span><span class="pill">Sentinel-2 imagery</span></div></div>
+<div><h3>Machine learning and AI</h3><div class="pills"><span class="pill">TensorFlow / Keras</span><span class="pill">EfficientNet-B0</span><span class="pill">TensorFlow Lite</span><span class="pill">Grad-CAM</span><span class="pill">LSTM</span><span class="pill">XGBoost</span><span class="pill">scikit-learn</span><span class="pill">Isolation Forest</span><span class="pill">Random Forest</span><span class="pill">K-Means</span></div></div>
+<div><h3>Data processing and analysis</h3><div class="pills"><span class="pill">Python</span><span class="pill">Pandas</span><span class="pill">NumPy</span><span class="pill">Matplotlib / Seaborn</span><span class="pill">Spectral indices: NDVI, NDWI, EVI, SAVI</span></div></div>
+<div><h3>Dashboard and mapping</h3><div class="pills"><span class="pill">Web dashboard</span><span class="pill">Leaflet</span><span class="pill">OpenStreetMap</span><span class="pill">Live sensor views</span><span class="pill">Alerts and history</span></div></div>
+</div>
+</section>
+
+</div></div></section>
+
+</main>
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="brand" href="index.html"><svg width="36" height="36" viewBox="0 0 36 36" aria-hidden="true"><rect width="36" height="36" rx="10" fill="#B3261E"/><path d="M9.5 26.5c6.5 1.2 15-3.2 16.8-13" stroke="#fff" stroke-width="4.6" stroke-linecap="round" fill="none"/><path d="M25.6 13.2c-.2-3.2 1.8-5.6 4.4-5.8" stroke="#E8B931" stroke-width="2.4" stroke-linecap="round" fill="none"/></svg><span class="brand-text"><span class="brand-name">chiliz</span><span class="brand-sub">Smart rover. Smarter chilli farming.</span></span></a>
+        <p style="margin-top:16px;max-width:42ch">Smart Chilli Crop Intelligence System Using an Autonomous Ground Rover. Research project R26-IT-075, Department of Information Technology, Faculty of Computing, Sri Lanka Institute of Information Technology.</p>
+      </div>
+      <div>
+        <h4>Pages</h4>
+        <ul><li><a href="index.html">Home</a></li><li><a href="domain.html">Domain</a></li><li><a href="milestones.html">Milestones</a></li><li><a href="documents.html">Documents</a></li><li><a href="presentations.html">Presentations</a></li><li><a href="about.html">About Us</a></li><li><a href="contact.html">Contact Us</a></li></ul>
+      </div>
+      <div>
+        <h4>Research team</h4>
+        <ul>
+          <li><a href="mailto:it22112682@my.sliit.lk">it22112682@my.sliit.lk</a></li>
+          <li><a href="mailto:it22108722@my.sliit.lk">it22108722@my.sliit.lk</a></li>
+          <li><a href="mailto:it22276032@my.sliit.lk">it22276032@my.sliit.lk</a></li>
+          <li><a href="mailto:it22192950@my.sliit.lk">it22192950@my.sliit.lk</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-base"><span>&copy; 2026 Research Group R26-IT-075, SLIIT, Malabe</span><span>2026 Regular Batch, Research Project</span></div>
+  </div>
+</footer>
+<button class="to-top" aria-label="Back to top"><svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="M9 14V4M5 8l4-4 4 4" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+<dialog class="search" id="search" aria-label="Search the site"><input type="search" placeholder="Search pages and sections" aria-label="Search"><ul></ul></dialog>
+<dialog class="lightbox" id="lightbox" aria-label="Image preview"><button class="icon-btn" aria-label="Close preview"><svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="m4 4 10 10M14 4 4 14" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></button><img alt=""></dialog>
+</body>
+</html>
