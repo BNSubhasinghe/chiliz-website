@@ -4,7 +4,7 @@ Project website for research project **R26-IT-075**, *Smart Chilli Crop Intellig
 
 The site presents the research domain, milestones, documents, presentation slides, team and contact details. **chiliz** is the commercial product name of the research outcome.
 
-**Live site:** `https://chilliz.tech/`
+**Live site:** https://chilliz.tech/
 
 ---
 
